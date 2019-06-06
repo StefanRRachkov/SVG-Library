@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(SVG)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(SVG main.cpp headers/SVG_Input.h headers/SVG_CInput.h source/SVG_CInput.cpp source/SVG_Input.cpp headers/SVG_Interface.h source/SVG_Interface.cpp headers/SVG_UInterface.h source/SVG_UInterface.cpp headers/SVG_InputController.h source/SVG_InputController.cpp figures/headers/SVG_Figure.h figures/source/SVG_Figure.cpp figures/headers/Rect.h figures/source/Rect.cpp figures/Figures.h headers/SVG_CommandTypes/CommandType.h headers/SVG_CommandTypes/Open.h headers/SVG_CommandTypes/Print.h headers/SVG_CommandTypes/Create.h headers/SVG_CommandTypes/Erase.h headers/SVG_CommandTypes/Within.h headers/SVG_CommandTypes/Translate.h source/CommandTypes/CommandType.cpp source/CommandTypes/Open.cpp source/CommandTypes/Print.cpp source/CommandTypes/Create.cpp source/CommandTypes/Erase.cpp source/CommandTypes/Within.cpp source/CommandTypes/Translate.cpp headers/SVG_Commands.h headers/SVG_FileStream.h source/SVG_FileStream.cpp headers/SVG_ContentStorage.h source/SVG_ContentStorage.cpp headers/SVG_FigureStorage.h source/SVG_FigureStorage.cpp headers/SVG_CommandTypes/Save.h source/CommandTypes/Save.cpp headers/SVG_CommandTypes/Exit.h source/CommandTypes/Exit.cpp figures/headers/Circle.h figures/source/Circle.cpp figures/headers/Line.h figures/source/Line.cpp)

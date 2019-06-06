@@ -1,0 +1,3 @@
+D:/SVG/SVG-Library-C--master/SVG-Library-C--master/cmake-build-debug/CMakeFiles/SVG.dir
+D:/SVG/SVG-Library-C--master/SVG-Library-C--master/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SVG/SVG-Library-C--master/SVG-Library-C--master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
